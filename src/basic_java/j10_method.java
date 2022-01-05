@@ -5,17 +5,21 @@ package basic_java;
 // * Methods are used to perform certain actions, and they are also known as functions.
 // * Why use methods? To reuse code: define the code once, and use it many times.
 
+// ? we call create a method above or down of main class ( location doesn't matter )
+
 public class j10_method {
 
     // ? creating a method
     static void myMethod() {
         // code to be executed
         System.out.println("I just got executed!");
+    }
 
     //   *     static means that the method belongs to the Main class
     //   *     and not an object of the Main class.
+    //   *     call it without creating / calling an object
     //   *     void means that this method does not have a return value.
-    }
+
 
 
     // ? creating a parameter method

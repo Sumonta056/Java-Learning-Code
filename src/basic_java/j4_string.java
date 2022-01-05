@@ -54,7 +54,7 @@ public class j4_string {
 
         // * character array string
         char[] name = {'m', 'r' , 'i','d' , 'u' ,'l'} ;
-        System.out.println(name);
+        System.out.println(name);        // * prints = mridul
 
         // * check two string same or not
         // * boolean = s1.equal(s2) ;

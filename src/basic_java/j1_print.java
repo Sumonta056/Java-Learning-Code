@@ -7,8 +7,8 @@ package basic_java;
 //        The "Package" keyword is used to create packages in Java.
 
 public class j1_print
-//        In Java, every program must contain a class.
-//        The filename and name of the class should be the same.
+//         In Java, every program must contain a class.
+// !       The filename and name of the class should be the same.
 
 // * Naming Conventions
 // ? For classes, we use Pascal Convention.
@@ -17,20 +17,21 @@ public class j1_print
 // ? For functions and variables, we use camelCaseConvention
 // Example : myScanner, myMarks
 {
-    // * just type main for this code
+    // * just type main for this code(shortcut)
     public static void main(String[] args)
             //* void   = no return type function
             //* main   = start the java program
             //* public = access modifier ( can access from anywhere)
-            //* static = run the function with making object in class
+            //* static = run the function without making object in class
+                       //* we don't have to call obj.function() ; for static
+                       //* we call direct like function() ;
     {
-        // * just type sout
+        // * just type sout (shortcut)
         System.out.println("Hello World");
             // ! println mean print with new line
         System.out.print("didn't enter");
            // ! print mean print without new line
         System.out.print("didn't enter");
-        // printing
 
         // * print multiple things with + sign
         String name = "John";

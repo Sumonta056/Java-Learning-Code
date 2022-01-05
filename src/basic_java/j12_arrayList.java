@@ -84,10 +84,10 @@ public class j12_arrayList {
         System.out.println(arr);
 
         // * addall
-        // * ArrayList<Integer> arr1 = new ArrayList<>(arr);
+        // * copy elements of arr to arr1
         ArrayList<Integer> arr1 = new ArrayList<>() ;
 
-        arr1.addAll(arr);
+        arr1.addAll(arr);          // * ArrayList<Integer> arr1 = new ArrayList<>(arr);
         System.out.println(arr1);
 
 

@@ -21,13 +21,17 @@ public class j3_taking_input {
         String str = scan.nextLine();     // * take string as whole line or sentence
         char ch = scan.next().charAt(0);  // * take one character input
 
-        // * string printing bug
+        // * string printing bug ( fix )
         // * double d = scan.nextDouble();
         // * scan.nextLine();
         // * String s = scan.nextLine() ;
 
+        // ? most probably fix the error of entering to next line
+
         System.out.println(scan.hasNextInt());
         // * It is a Scanner class method which returns true
         // * if this scanner has another token an integer variable in its input
+
+        // * same for string , double , float , character
     }
 }
