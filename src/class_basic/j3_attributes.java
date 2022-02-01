@@ -7,7 +7,7 @@ public class j3_attributes {
 
     // * create multiple attributes
     String Name = "Sumonta";
-    String changeName = " " ; // * setting a initial condition of variable
+    String changeName = " " ; // * setting an initial condition of variable
     String newName ;
 
     int x =  7 ;
@@ -29,7 +29,7 @@ public class j3_attributes {
         System.out.println(obj.Name);
 
         // * Stop the modifying the value
-        // * will show a error
+        // * will show an error
         //  ?  obj.y = 17;
         System.out.println(obj.y);
 

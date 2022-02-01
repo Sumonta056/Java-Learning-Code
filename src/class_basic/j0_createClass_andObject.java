@@ -16,7 +16,7 @@ public class j0_createClass_andObject {
         // ! object name Ex : carAbility , studentNameRoll
         j0_createClass_andObject obj = new j0_createClass_andObject();
 
-        // * obj is the object of class name j0_createClass_andObject
+        // * obj is the object of class name " j0_createClass_andObject "
 
         // ! access attributes by creating an object of the class and using (.):
         System.out.println(obj.x);

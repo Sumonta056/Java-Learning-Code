@@ -1,5 +1,5 @@
 package class_basic;
-// * also, can access the methods of class via objecy
+// * also, can access the methods of class via object
 public class j4_methods {
 
     // * create a method or function
