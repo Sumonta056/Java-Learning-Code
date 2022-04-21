@@ -10,5 +10,11 @@ public class p1_addTwoNumbers
         int sum = num1 + num2 ;
         System.out.println(sum);
 
+        int i = 0 ;
+
+        i = (i++) + i ;
+
+        System.out.println(i);
+
     }
 }
