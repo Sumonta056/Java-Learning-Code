@@ -6,7 +6,19 @@ public class j14_stringBuffer {
     // * u can change / replace / add in string buffer
     public static void main(String[] args) {
 
-        StringBuffer s = new StringBuffer("Mridul") ;
+        StringBuffer s = new StringBuffer("wenamus") ;
+        System.out.println(s);
+
+
+        System.out.println(s.substring(0,4));
+
+        s.replace(2,6,"new");
+        System.out.println(s);
+
+        s.insert(3 , "onta") ;
+        System.out.println(s);
+
+        s.delete(4,7);
         System.out.println(s);
 
         // * add another string with current string
